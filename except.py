@@ -8,7 +8,7 @@ def get_summ(num_one, num_two):
 var_one = input('Введите первый аргумент:')
 var_two = input('Введите второй аргумент:')
 summ = get_summ(var_one, var_two)
-if not summ == None:
+if summ:
     print('Сумма аргументнтов равна:',summ)
 else:
     print('Агрументы не целого типа')

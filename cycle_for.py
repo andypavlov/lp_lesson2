@@ -19,8 +19,8 @@ student_scores = [
 
 scool_score = 0
 
-for i in student_scores:
-    middle_class_score = round(sum(i['scores'])/len(i['scores']),1)
-    print('Средняя оценка в {} классе = '.format(i['scool_class']),middle_class_score)
+for count in student_scores:
+    middle_class_score = round(sum(count['scores'])/len(count['scores']),1)
+    print('Средняя оценка в {} классе = {}'.format(count['scool_class'],middle_class_score))
     scool_score += middle_class_score 
 print ('Средняя оценка по школе = {}'.format(round(scool_score/len(student_scores),1)))

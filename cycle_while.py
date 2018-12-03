@@ -20,4 +20,3 @@ def ask_user():
         print('Это запрещенный прием!\nПока!')
 
 ask_user()
-
